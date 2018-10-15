@@ -4,7 +4,6 @@ using Serilog.Extensions.Logging;
 
 namespace Gunnsoft.Logging
 {
-    // TODO Move to Gunnsoft.Logging
     public class SerilogLoggerFactory : ILoggerFactory
     {
         private readonly SerilogLoggerProvider _provider;
